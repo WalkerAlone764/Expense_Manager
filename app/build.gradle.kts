@@ -70,12 +70,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     //koin
-    implementation("io.insert-koin:koin-core:3.5.3")
-    implementation("io.insert-koin:koin-android:3.5.3")
-    implementation("io.insert-koin:koin-androidx-compose:3.5.3")
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
 
     //Ychart
-    implementation("co.yml:ycharts:2.1.0")
+    implementation(libs.ycharts)
 
 
     implementation(libs.androidx.material.icons.extended)
